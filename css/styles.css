@@ -750,7 +750,7 @@ button {
   justify-content: center;
 }
 
-.modal-checkbox:checked+.modal-checkbox-label .modal-checkbox-custom {
+.modal-checkbox:checked + .modal-checkbox-label .modal-checkbox-custom {
   background-color: #404bbf;
   border: 1px solid #404bbf;
 }
@@ -759,7 +759,7 @@ button {
   fill: transparent;
 }
 
-.modal-checkbox:checked+.modal-checkbox-label .modal-checkbox-icon {
+.modal-checkbox:checked + .modal-checkbox-label .modal-checkbox-icon {
   fill: #f4f4fd;
 }
 
@@ -788,7 +788,6 @@ button {
 /* TABLET */
 
 @media screen and (min-width: 768px) {
-
   .mobile-menu,
   .mobile-menu-open-btn {
     display: none;
